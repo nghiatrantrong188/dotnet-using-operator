@@ -13,8 +13,10 @@ namespace UsingOperator
             width = float.Parse(Console.ReadLine());
             Console.Write("Enter height: ");
             height = float.Parse(Console.ReadLine());
-            float area = width * height;
+            float area;
+            area = width * height;            
             Console.WriteLine("Area is: " + area);
+            area = float.Parse(Console.ReadLine());
         }
     }
 }
